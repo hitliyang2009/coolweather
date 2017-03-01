@@ -3,9 +3,9 @@
     <version value="1" />//数据库版本
 
     <list>//将三个类添加到映射列表当中
-        <mapping class="com.hillstone.coolweather.android.db.Province" />
-        <mapping class="com.hillstone.coolweather.android.db.City" />
-        <mapping class="com.hillstone.coolweather.android.db.County" />
+        <mapping class="com.hillstone.coolweather.db.City" />
+        <mapping class="com.hillstone.coolweather.db.County" />
+        <mapping class="com.hillstone.coolweather.db.Province" />
     </list>
 
 </litepal>
